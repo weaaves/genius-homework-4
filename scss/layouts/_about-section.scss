@@ -1,0 +1,47 @@
+.about-section {
+  &__container {
+    display: flex;
+  }
+
+  &__div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 1.7;
+    max-width: 709px;
+  }
+
+  &__title {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+    color: var(--color-brand-dark);
+    line-height: normal;
+    margin-bottom: 40px;
+    max-width: 529px;
+  }
+
+  &__title-span {
+    color: var(--color-brand-light);
+    text-transform: capitalize;
+  }
+
+  &__text {
+    margin-right: 28px;
+  }
+
+  &__menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__list:last-child {
+    padding-left: 196px;
+  }
+
+  &__photo {
+    border-radius: 50%;
+  }
+}

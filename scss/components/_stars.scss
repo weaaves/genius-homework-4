@@ -1,0 +1,96 @@
+.star-blue::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 0;
+  background-repeat: no-repeat;
+  background-image: url("../images/about-star-blue.png");
+  background-size: 40px;
+  animation-name: star-blue;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes star-blue {
+  40% {
+    transform: rotate(180deg);
+    scale: 1.1;
+  }
+
+  70% {
+    transform: rotate(260deg);
+    scale: 1.3;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    scale: 1;
+  }
+}
+
+.star-dark::before {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 361px;
+  right: 332px;
+  background-repeat: no-repeat;
+  background-image: url("../images/about-star-dark.png");
+  background-size: 64px;
+  animation-name: star-dark;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes star-dark {
+  40% {
+    transform: rotate(180deg);
+    scale: 1.1;
+  }
+
+  70% {
+    transform: rotate(260deg);
+    scale: 1.3;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    scale: 1;
+  }
+}
+
+.star-small::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 277px;
+  right: 35px;
+  background-repeat: no-repeat;
+  background-image: url("../images/about-star-small.png");
+  background-size: 16px;
+  animation-name: star-small;
+  animation-duration: 6s;
+  animation-timing-function: no;
+  animation-iteration-count: infinite;
+}
+
+@keyframes star-small {
+  40% {
+    transform: rotate(180deg);
+    scale: 1.1;
+  }
+
+  70% {
+    transform: rotate(260deg);
+    scale: 1.3;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    scale: 1;
+  }
+}

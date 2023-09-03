@@ -1,0 +1,118 @@
+.footer {
+  background-color: var(--color-brand-dark);
+  background-image: url("../images/footer-line.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 56px 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 247px;
+    height: 151px;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-image: url("../images/footer-medicine.png");
+  }
+
+  &__container {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__img {
+    width: 83px;
+    height: 42px;
+  }
+
+  &__logo,
+  &__list {
+    flex-grow: 1;
+  }
+
+  &__nav,
+  .address {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+  }
+
+  &__link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.1;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--color-brand-light);
+    }
+  }
+}
+
+.address {
+  &__link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.1;
+    transition: color 0.2s;
+  }
+
+  &__link:hover {
+    color: var(--color-brand-light);
+  }
+
+  &__copyright {
+    color: var(--color-secondary-brown);
+    font-size: 13px;
+    font-style: normal;
+  }
+
+  &__icons {
+    fill: var(--color-primary-light);
+    transition: fill 0.2s;
+  }
+
+  &__icons:hover {
+    fill: var(--color-brand-light);
+  }
+
+  &__policy,
+  &__menu {
+    flex-grow: 1;
+  }
+
+  &__menu {
+    &li:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__item {
+    max-width: 203px;
+    line-height: 1.1;
+  }
+
+  &__list li {
+    margin-bottom: 16px;
+  }
+
+  &__img {
+    display: flex;
+    margin-bottom: 0;
+    gap: 24px;
+  }
+
+  &__img li {
+    margin-bottom: 0;
+    gap: 24px;
+  }
+
+  &__policy-list:first-child {
+    margin-bottom: 16px;
+  }
+}

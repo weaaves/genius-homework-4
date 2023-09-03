@@ -1,0 +1,113 @@
+.contact-section {
+  padding-bottom: 94px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__card {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__map {
+    border-radius: 32px;
+  }
+
+  &__text {
+    color: var(--color-primary-light);
+    line-height: 1.1;
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 276px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  &__content {
+    padding: 48px 56px;
+  }
+
+  &__form {
+    border-radius: 32px;
+    background-color: var(--color-brand-dark);
+    background-image: url("../images/footer-line.png");
+    width: 423px;
+  }
+
+  &__title {
+    color: var(--color-brand-light);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  &__input {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    border-radius: 32px;
+    border: 2px solid var(--color-secondary-brown);
+    background-color: transparent;
+    padding-left: 32px;
+    width: 278px;
+    height: 52px;
+    color: var(--color-primary-light);
+    transition: background-color 0.2s, otline 0.2s;
+
+    &:focus {
+      background-color: var(--color-secondary-brown);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--color-primary-light);
+    }
+  }
+
+  &__form-field {
+    position: relative;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  &__form-terms {
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-secondary-brown);
+    max-width: 209px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--color-brand-light);
+      cursor: pointer;
+    }
+  }
+
+  &__terms-span {
+    text-decoration: underline;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    max-width: 281px;
+    transition: color 0.2s, background-color 0.2s, border 0.2s;
+
+    &:hover {
+      color: var(--color-primary-light);
+      background-color: transparent;
+      border: 2px solid var(--color-brand-light);
+    }
+  }
+}
