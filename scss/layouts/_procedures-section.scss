@@ -1,37 +1,23 @@
 .procedures-section {
-  &__container {
+  &__slider {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    gap: 32px;
     align-items: center;
   }
 
-  &__card {
-    display: flex;
-    align-items: flex-end;
-    width: 344px;
-    height: 456px;
-    background-color: darkgray;
-    border-radius: 4px 120px;
-    transition: transform 0.2s;
-  }
-
-  &__card:hover {
-    transform: scale(1.05);
+  &__container {
+    overflow: hidden;
   }
 
   &__list {
-    display: flex;
-    gap: 16px;
+    margin-bottom: 32px;
   }
 
-  &__text {
-    color: var(--color-primary-light);
-    font-family: "Roboto", sans-serif;
-    line-height: 1.1;
-    margin-bottom: 32px;
-    max-width: 152px;
-    margin-left: 115px;
-    text-align: center;
+  &__button {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+    }
   }
 }

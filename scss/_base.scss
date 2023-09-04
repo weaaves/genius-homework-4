@@ -1,3 +1,9 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--color-brand-dark);
   font-weight: 400;
@@ -32,4 +38,11 @@ img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 20px;
 }

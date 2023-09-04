@@ -1,13 +1,12 @@
 @import "./base";
 @import "./utils/variables";
-@import "./components/carousel";
-@import "./components/container";
 @import "./components/section";
 @import "./components/stars";
 @import "./components/visually-hidden";
 @import "./components/links";
 @import "./components/buttons";
 @import "./components/clients-photo";
+@import "./components/carousel";
 
 @import "./layouts/mobile-menu";
 @import "./layouts/about-section";
@@ -15,9 +14,12 @@
 @import "./layouts/footer";
 @import "./layouts/header";
 @import "./layouts/hero-section";
+@import "./components/input-form";
 @import "./layouts/info-section";
 @import "./layouts/modal";
+@import "./components/pagination";
 @import "./layouts/procedures-section";
+@import "./components/procedures-card";
 
 @import "./utils/fonts";
 @import "./utils/variables";
