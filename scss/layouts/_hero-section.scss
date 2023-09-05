@@ -26,6 +26,22 @@
     background-position: right;
   }
 
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: linear-gradient(
+        57deg,
+        #fff 20.92%,
+        rgba(255, 255, 255, 0.78) 44.46%,
+        rgba(255, 255, 255, 0.2) 58.9%,
+        rgba(255, 255, 255, 0) 72.45%
+      ),
+      url("../images/hero-back-photo@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+
   &__container {
     padding: 0;
 

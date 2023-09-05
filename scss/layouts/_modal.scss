@@ -1,0 +1,27 @@
+.modal {
+  &--extended {
+    max-height: 684px;
+    margin: 0 20px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-primary-light);
+    max-width: 276px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 22px;
+    }
+  }
+
+  &__span {
+    color: var(--color-brand-light);
+  }
+
+  &__field {
+    margin-bottom: 24px;
+  }
+}
